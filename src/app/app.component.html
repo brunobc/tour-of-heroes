@@ -1,6 +1,13 @@
-<mat-icon svgIcon="thumbs-up"></mat-icon>
+<h1>{{title}}</h1>
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
 
-<mat-list>
+
+<!-- <mat-list>
   <h3 mat-subheader>Folders</h3>
   <mat-list-item *ngFor="let folder of folders">
     <mat-icon mat-list-icon>folder</mat-icon>
@@ -15,4 +22,4 @@
     
     <p mat-line> {{note.updated | date}} </p>
   </mat-list-item>
-</mat-list>
+</mat-list> -->
