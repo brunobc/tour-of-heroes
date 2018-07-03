@@ -13,7 +13,7 @@ export interface Section {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Tour of Heroes';
 
   folders: Section[] = [
     {
